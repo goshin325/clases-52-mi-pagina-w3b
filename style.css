@@ -1,0 +1,54 @@
+h1{
+    color:aqua;
+    margin-left: 30px;
+ }
+ 
+ .header{
+    background-color: darkblue;
+    display: flex;
+    justify-content: space-between;
+ }
+ p,h2{
+    color: white;
+ }
+ .grid{display: flex;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+  
+}
+.footer{display: flex;
+justify-content: flex-end;
+}
+body{
+   background-color: rebeccapurple
+}
+a:link{
+   color: rgb(112, 236, 81);
+}
+a:visited{
+   color: #ffff00;
+}
+.menu{
+   margin-right: 40px; 
+   margin-top: 25px;
+}
+.menu a{
+  margin-right: 50px; 
+}
+.item{
+   position: relative;
+}
+.item p{
+   color: rgb(0,0,0);
+  position: absolute; 
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  opacity: 0;
+}
+.item:hover p{
+   opacity: 1;
+}
+.item:hover img{
+   opacity: 0.6;
+}
